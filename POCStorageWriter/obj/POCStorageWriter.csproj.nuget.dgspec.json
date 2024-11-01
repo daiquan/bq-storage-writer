@@ -1,0 +1,86 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\Dev\\Corp Analytics\\POC\\poc-storage-writer\\POCStorageWriter\\POCStorageWriter.csproj": {}
+  },
+  "projects": {
+    "D:\\Dev\\Corp Analytics\\POC\\poc-storage-writer\\POCStorageWriter\\POCStorageWriter.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Dev\\Corp Analytics\\POC\\poc-storage-writer\\POCStorageWriter\\POCStorageWriter.csproj",
+        "projectName": "POCStorageWriter",
+        "projectPath": "D:\\Dev\\Corp Analytics\\POC\\poc-storage-writer\\POCStorageWriter\\POCStorageWriter.csproj",
+        "packagesPath": "C:\\Users\\qdai\\.nuget\\packages\\",
+        "outputPath": "D:\\Dev\\Corp Analytics\\POC\\poc-storage-writer\\POCStorageWriter\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "D:\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "http://artifactory.nginx.k1d.k8.cin.kore.korewireless.com/artifactory/api/nuget/nuget": {},
+          "http://ksg-nuget-1.ksg.int/api/v2": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Google.Api.Gax.Grpc": {
+              "target": "Package",
+              "version": "[4.9.0, )"
+            },
+            "Google.Cloud.BigQuery.Storage.V1": {
+              "target": "Package",
+              "version": "[3.17.0, )"
+            },
+            "Google.Cloud.BigQuery.V2": {
+              "target": "Package",
+              "version": "[3.2.0, )"
+            },
+            "Protobuf": {
+              "target": "Package",
+              "version": "[2.6.1.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.306\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
